@@ -1,0 +1,51 @@
+  1  git config -- global user.name Alfonso
+    2  git config --global user.name "Alfonso"
+    3  git congif --global user.email "algace91@gmail.com"
+    4  git congig --global user.email "algace91@gmail.com"
+    5  git config --global user.email "algace91@gmail.com"
+    6  ssh-keygen -t rsa -b 4096 -C "algace91@gmail.com"
+    7  eval $(ssh-agent -s)
+    8  ssh-add ~/.ssh/id_rsa
+    9  clip < ~/.ssh/id_rsa.pub
+   10  pwd
+   11  mkdir
+   12  mkdir practicas-git
+   13  cd practicas-git
+   14  echo "# practica-git" >> README.md
+   15  open .
+   16  cat READ.md
+   17  cat README.md
+   18  git init
+   19  GIT status
+   20  git status
+   21  git add README.md
+   22  git status
+   23  git commit -m buenos dias
+   24  git commit -m "buenos dias"
+   25  git status
+   26  git remote add origin https://github.com/algace91/practica-git.git
+   27  git push -u origin master
+   28  git status
+   29  git add README.md
+   30  git status
+   31  git commit -m "mi segundo commit"
+   32  git push
+   33  cd..
+   34  cd ..
+   35  pwd
+   36  mkdir repo-marco
+   37  cd
+   38  cd repo-marco
+   39  https://github.com/MarcoStaccato/git-practices.git
+   40  git clone git@github.com:MarcoStaccato/git-practices.git
+   41  git pull
+   42  ls
+   43  cd git-practices
+   44  git pull
+   45  git branch -1
+   46  git branch -a
+   47  git status
+   48  git checkout feature/ponchito
+   49  git status
+   50  touch ponchito.list
+   51  history
